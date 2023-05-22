@@ -1,7 +1,12 @@
 import React from 'react'
-import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs';
+import { BsLinkedin, BsVoicemail, BsGithub } from 'react-icons/bs';
 
 const SocialMedia = () => {
+
+  const handleEmailClick = () => {
+    window.open('mailto:siddhantsharma669@gmail.com', '_blank');
+  };
+
   return (
     <div className='app__social'>
       <div>
@@ -16,10 +21,10 @@ const SocialMedia = () => {
         </a>
       </div>
 
-      <div>
-        <a href='https://twitter.com/Siddhan21635824'>
-          <BsTwitter />
-        </a>
+      <div >
+        
+        <a href="javascript:void(0);" onClick={() => handleEmailClick()}><BsVoicemail /></a>
+        
       </div>
 
 
