@@ -23,7 +23,7 @@ const SocialMedia = () => {
 
       <div >
         
-        <a href="javascript:void(0);" onClick={() => handleEmailClick()}><BsVoicemail /></a>
+        <a href="#contact" onClick={() => handleEmailClick()}><BsVoicemail /></a>
         
       </div>
 
