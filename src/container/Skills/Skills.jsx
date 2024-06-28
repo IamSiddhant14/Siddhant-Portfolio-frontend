@@ -22,7 +22,7 @@ const Skills = () => {
       setSkills(data);
     });
   }, []);
-
+console.log( skills , "skills")
   return (
     <>
       <h2 className="head-text">Skills & Experiences</h2>
